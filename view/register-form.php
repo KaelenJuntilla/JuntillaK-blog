@@ -1,3 +1,5 @@
+<h1>Register</h1>
+
 <form>
     <div>
         <label for="email">Email: </label>
