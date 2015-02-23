@@ -5,7 +5,7 @@
     $username = filter_input(INPUT_POST, "username", FILTER_SANITIZE_STRING);
     $password = filter_input(INPUT_POST, "password", FILTER_SANITIZE_STRING);
     
-    //This creates a password generated 5000 times to get a unique password
+    //This creates a password generated 5000 times to get a unique password//
     $salt = "$5$" . "rounds=5000$" . uniqid(mt_rand(), true) . "$";
     
     $hashedPassword = crypt($password, $salt);
