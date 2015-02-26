@@ -1,4 +1,4 @@
-.jumbotron {
+      .Mumbotron {
         text-align: center;
         font-size:  46px;
         background-image: url('http://www.bangertersheppard.com/images/los-angeles.jpg');
@@ -7,5 +7,9 @@
         width: auto;
         font-style: oblique;
         color:black;
+    }
+    
+    .bodyH {
+        background-color:#777
     }
 
